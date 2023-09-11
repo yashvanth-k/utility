@@ -21,7 +21,7 @@ spec:
       containers:
       - args:
         - run
-        image: quay.io/argoprojlabs/argocd-image-updater:latest
+        image: quay.io/argoprojlabs/argocd-image-updater:1.0
         imagePullPolicy: Always
         env:
         - name: APPLICATIONS_API
