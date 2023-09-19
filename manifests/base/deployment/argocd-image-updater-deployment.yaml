@@ -20,7 +20,7 @@ spec:
       containers:
       - args:
         - run
-        image: quay.io/argoprojlabs/argocd-image-updater:latest
+        image: argotest1.azurecr.io/caddy:0.1
         imagePullPolicy: Always
         env:
         - name: APPLICATIONS_API
